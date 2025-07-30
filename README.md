@@ -13,3 +13,7 @@
 ## Run it using curl
 curl -X POST "http://localhost:8080/todos?title=Initial"
 curl -X PATCH "http://localhost:8080/todos/1?title=Updated"
+
+## How to run
+- Unit tests: mvn test
+- Integration tests: mvn verify -P integration-tests
